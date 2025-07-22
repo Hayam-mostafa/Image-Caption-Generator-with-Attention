@@ -1,12 +1,10 @@
 # Image-Caption-Generator-with-Attention
 
---
 
 ## Project Idea: 
 This project demonstrates how to build an **Image Captioning** system that automatically generates a descriptive sentence for any given image.  
 It combines **Computer Vision** and **Natural Language Processing (NLP)** by using a **VGG16 CNN** to extract visual features, then a sequence model (**LSTM**) generates the caption word by word, with an **Attention Layer** to improve focus on important parts of the image during caption generation.
 
---
 
 ## How It Works:
 
@@ -26,7 +24,6 @@ It combines **Computer Vision** and **Natural Language Processing (NLP)** by usi
      The model is trained on the **Flickr8k** dataset, which contains thousands of images with multiple human-written captions.  
      After training, the system can generate new captions for unseen images.
 
---
 
 ## Tools & Libraries:
 
@@ -36,13 +33,11 @@ It combines **Computer Vision** and **Natural Language Processing (NLP)** by usi
   - **nltk** — text cleaning and tokenization
   - **matplotlib** — for visualizing samples and training progress
 
---
 
 ## Dataset:
 
   - **Flickr8k** — includes 8,000 images, each with five human-written captions
 
---
 
 ## Project Goal:
 
